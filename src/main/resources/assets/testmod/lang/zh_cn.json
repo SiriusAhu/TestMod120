@@ -1,5 +1,7 @@
 {
   "item.testmod.red_square": "红框",
 
+  "block.testmod.red_flower_block": "红花方块",
+
   "itemgroup.testmod.basic_items": "基础物品"
 }

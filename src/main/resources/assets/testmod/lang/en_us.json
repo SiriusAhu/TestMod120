@@ -1,5 +1,7 @@
 {
   "item.testmod.red_square": "Red Square",
 
+  "block.testmod.red_flower_block": "Red Flower Block",
+
   "itemgroup.basic_items": "Basic Items"
 }

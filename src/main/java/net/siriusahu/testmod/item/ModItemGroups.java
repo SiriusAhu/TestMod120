@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.siriusahu.testmod.TestMod;
+import net.siriusahu.testmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup BASIC_ITEMS = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RED_SQUARE)).entries(((displayContext, entries) -> { // The icon of the tab
                         // Add items to the tab here
                         entries.add(ModItems.RED_SQUARE);
+                        entries.add(ModBlocks.RED_FLOWER_BLOCK);
                     })).build());
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering item groups for " + TestMod.MOD_NAME + "(" + TestMod.MOD_ID + ")");
