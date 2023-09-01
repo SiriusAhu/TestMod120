@@ -18,6 +18,8 @@ public class ModItemGroups {
                         // Add items to the tab here
                         entries.add(ModItems.RED_SQUARE);
                         entries.add(ModBlocks.RED_FLOWER_BLOCK);
+                        entries.add(ModItems.METAL_DETECTOR);
+
                     })).build());
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering item groups for " + TestMod.MOD_NAME + "(" + TestMod.MOD_ID + ")");
