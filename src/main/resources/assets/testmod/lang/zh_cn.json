@@ -3,6 +3,7 @@
   "item.testmod.metal_detector": "金属探测器",
 
   "block.testmod.red_flower_block": "红花方块",
+  "block.testmod.music_block": "音乐方块",
 
   "itemgroup.testmod.basic_items": "基础物品"
 }

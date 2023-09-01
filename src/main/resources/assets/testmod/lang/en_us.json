@@ -3,6 +3,7 @@
   "item.testmod.metal_detector": "Metal Detector",
 
   "block.testmod.red_flower_block": "Red Flower Block",
+  "block.testmod.music_block": "Music Block",
 
   "itemgroup.basic_items": "Basic Items"
 }

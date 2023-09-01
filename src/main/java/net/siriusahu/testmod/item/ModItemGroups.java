@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RED_SQUARE);
                         entries.add(ModBlocks.RED_FLOWER_BLOCK);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.MUSIC_BLOCK);
 
                     })).build());
     public static void registerItemGroups() {

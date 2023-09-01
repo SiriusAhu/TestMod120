@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "testmod:block/music_block_top",
+    "side": "testmod:block/music_block"
+  }
+}

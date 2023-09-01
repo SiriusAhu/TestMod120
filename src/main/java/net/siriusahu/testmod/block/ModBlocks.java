@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.siriusahu.testmod.TestMod;
+import net.siriusahu.testmod.block.custom.MusicBlock;
 
 public class ModBlocks {
     public static final Block RED_FLOWER_BLOCK = registerBlock("red_flower_block",
@@ -19,6 +20,9 @@ public class ModBlocks {
              Hover the cursor over `Blocks` of `Blocks.OAK_LEAVES` and press `Ctrl` + left click to see the source code of Minecraft vanilla blocks' attributes
              */
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block MUSIC_BLOCK = registerBlock("music_block",
+            new MusicBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // ↓↓↓ Don't edit from thie line if not necessary ↓↓↓
     private static Block registerBlock(String name, Block block) {

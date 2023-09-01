@@ -18,7 +18,6 @@ public class ModItems {
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings()
                     .maxDamage(64) // Durability
-                    .maxCount(1) // Stack size
                     )
     );
 
