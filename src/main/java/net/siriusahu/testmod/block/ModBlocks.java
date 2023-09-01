@@ -18,7 +18,7 @@ public class ModBlocks {
              It can be customized if you want, here we copyOf to get the attribute of the block `Blocks.OAK_LEAVES` for convenience
              Hover the cursor over `Blocks` of `Blocks.OAK_LEAVES` and press `Ctrl` + left click to see the source code of Minecraft vanilla blocks' attributes
              */
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // ↓↓↓ Don't edit from thie line if not necessary ↓↓↓
     private static Block registerBlock(String name, Block block) {
