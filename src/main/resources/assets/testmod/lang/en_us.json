@@ -1,6 +1,9 @@
 {
   "item.testmod.red_square": "Red Square",
   "item.testmod.metal_detector": "Metal Detector",
+  "item.testmod.black_bread": "Black Bread",
+
+  "tooltip.testmod.metal_detector.tooltip": "Right click on a block to detect if there is any metal under it.",
 
   "block.testmod.red_flower_block": "Red Flower Block",
   "block.testmod.music_block": "Music Block",

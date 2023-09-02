@@ -2,6 +2,7 @@ package net.siriusahu.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.siriusahu.testmod.block.ModBlocks;
 import net.siriusahu.testmod.item.ModItemGroups;
 import net.siriusahu.testmod.item.ModItems;
@@ -22,5 +23,7 @@ public class TestMod implements ModInitializer {
         ModItemGroups.registerItemGroups();
         // Register blocks
         ModBlocks.registerModBlocks();
+
+        FuelRegistry.INSTANCE.add(ModItems.BLACK_BREAD, 100);
     }
 }

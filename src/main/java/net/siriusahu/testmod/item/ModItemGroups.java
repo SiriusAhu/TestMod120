@@ -20,8 +20,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_FLOWER_BLOCK);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.MUSIC_BLOCK);
-
+                        entries.add(ModItems.BLACK_BREAD);
                     })).build());
+
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering item groups for " + TestMod.MOD_NAME + "(" + TestMod.MOD_ID + ")");
     }

@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.siriusahu.testmod.item.custom.MetalDetectorItem;
+import net.siriusahu.testmod.item.custom.ModFoodComponents;
 
 public class ModItems {
 
@@ -21,6 +22,11 @@ public class ModItems {
                     )
     );
 
+    public static final Item BLACK_BREAD = registerItem("black_bread",
+            new Item(new FabricItemSettings()
+                    .food(ModFoodComponents.BLACK_BREAD) // Food component
+                    )
+    );
 
 
     // Add items to the "Ingredients" tab
