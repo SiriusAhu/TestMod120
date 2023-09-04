@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.siriusahu.testmod.item.custom.MetalDetectorItem;
 import net.siriusahu.testmod.item.custom.ModFoodComponents;
+import net.siriusahu.testmod.item.item4fun.HealingHeart;
 
 public class ModItems {
 
@@ -25,6 +26,13 @@ public class ModItems {
     public static final Item BLACK_BREAD = registerItem("black_bread",
             new Item(new FabricItemSettings()
                     .food(ModFoodComponents.BLACK_BREAD) // Food component
+                    )
+    );
+
+    public static final Item HEALING_HEART = registerItem("healing_heart",
+            new HealingHeart(new FabricItemSettings()
+                    .maxCount(1) // Max stack size
+                    .maxDamage(32) // Durability
                     )
     );
 

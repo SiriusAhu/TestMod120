@@ -2,6 +2,9 @@
   "item.testmod.red_square": "Red Square",
   "item.testmod.metal_detector": "Metal Detector",
   "item.testmod.black_bread": "Black Bread",
+  "item.testmod.healing_heart": "Healing Heart",
+
+  "item.testmod.healing_heart.use": "You get 5 level of healing for 1 second!",
 
   "tooltip.testmod.metal_detector.tooltip": "Right click on a block to detect if there is any metal under it.",
 

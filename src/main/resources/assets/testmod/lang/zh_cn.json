@@ -1,9 +1,15 @@
 {
-  "item.testmod.red_square": "红框",
+  "item.testmod.red_square": "红色方块",
   "item.testmod.metal_detector": "金属探测器",
+  "item.testmod.black_bread": "黑面包",
+  "item.testmod.healing_heart": "治疗之心",
+
+  "item.testmod.healing_heart.use": "你获得了1秒的5级生命恢复！",
+
+  "tooltip.testmod.metal_detector.tooltip": "右键点击方块来探测下面是否有金属。",
 
   "block.testmod.red_flower_block": "红花方块",
   "block.testmod.music_block": "音乐方块",
 
-  "itemgroup.testmod.basic_items": "基础物品"
+  "itemgroup.basic_items": "基础物品",
 }

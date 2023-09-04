@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.MUSIC_BLOCK);
                         entries.add(ModItems.BLACK_BREAD);
+                        entries.add(ModItems.HEALING_HEART);
                     })).build());
 
     public static void registerItemGroups() {
