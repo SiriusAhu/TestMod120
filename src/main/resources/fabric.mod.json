@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"net.siriusahu.testmod.TestModClient"
+		],
+		"fabric-datagen": [
+			"net.siriusahu.testmod.TestModDataGenerator"
 		]
 	},
 	"mixins": [

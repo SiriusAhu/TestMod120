@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:music_block",
+    "#minecraft:gold_ores",
+    "#minecraft:coal_ores"
+  ]
+}

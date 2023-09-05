@@ -1,0 +1,11 @@
+// 1.20.1	2023-09-05T01:27:51.066029	Test Mod/Model Definitions
+a58bfdf2b24532dee2bb8924050e89aa23b6e2bb assets\testmod\models\item\black_bread.json
+d89ed460e9c5a6a8a06b154ab143e4a5a06307a4 assets\testmod\models\item\metal_detector.json
+85c28b90f0535bfca490b132b7896b7b08e96d16 assets\testmod\blockstates\red_flower_block.json
+9a87f34be2638958073fb5c6af873e19c0a1379d assets\testmod\models\block\music_block.json
+1e2c43d6d166362be9b739f9a1c912ba173937f3 assets\testmod\models\block\red_flower_block.json
+3ae88781d4f26701869cc7690a337bd9f16be55d assets\testmod\models\item\red_flower_block.json
+e83d2746c9f65b756ebd584a8867365a1c3f690e assets\testmod\blockstates\music_block.json
+3a7e88a5f26acb17c168246c88be6dd560778297 assets\testmod\models\item\healing_heart.json
+3f4957cd616359100d5e88ce48aa18d129d0ccda assets\testmod\models\item\red_square.json
+2204f57bb8245af8c985a85b8ab3baa25b7d9e77 assets\testmod\models\item\music_block.json
