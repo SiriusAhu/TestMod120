@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MUSIC_BLOCK);
                         entries.add(ModItems.BLACK_BREAD);
                         entries.add(ModItems.HEALING_HEART);
+                        entries.add(ModBlocks.RED_FLOWER_STAIRS);
+                        entries.add(ModBlocks.RED_FLOWER_SLAB);
                     })).build());
 
     public static void registerItemGroups() {

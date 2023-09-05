@@ -10,6 +10,8 @@
 
   "block.testmod.red_flower_block": "红花方块",
   "block.testmod.music_block": "音乐方块",
+  "block.testmod.red_flower_stairs": "红花楼梯",
+  "block.testmod.red_flower_slab": "红花台阶",
 
-  "itemgroup.basic_items": "基础物品",
+  "itemgroup.basic_items": "基础物品"
 }

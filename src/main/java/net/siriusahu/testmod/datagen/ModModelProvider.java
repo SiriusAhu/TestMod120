@@ -15,8 +15,13 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_FLOWER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool redFlowerTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_FLOWER_BLOCK);
+//        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_FLOWER_BLOCK);
+
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MUSIC_BLOCK);
+
+        redFlowerTexturePool.stairs(ModBlocks.RED_FLOWER_STAIRS);
+        redFlowerTexturePool.slab(ModBlocks.RED_FLOWER_SLAB);
     }
 
     @Override

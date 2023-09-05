@@ -1,3 +1,5 @@
-// 1.20.1	2023-09-05T01:27:51.0740294	Test Mod/Block Loot Tables
+// 1.20.1	2023-09-05T15:54:43.9038444	Test Mod/Block Loot Tables
+e33449f364560492a1fae41c272f83dddde1c035 data\testmod\loot_tables\blocks\red_flower_stairs.json
 d98d53efe2113e00375176c59980da568be039cc data\testmod\loot_tables\blocks\red_flower_block.json
 c6864c5e36f906e25c236f8e8808dabcc5c2af50 data\testmod\loot_tables\blocks\music_block.json
+6f03a0099fdd8167bf5e09aaebb40978ed282c2b data\testmod\loot_tables\blocks\red_flower_slab.json

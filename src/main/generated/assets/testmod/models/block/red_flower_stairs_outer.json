@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "testmod:block/red_flower_block",
+    "side": "testmod:block/red_flower_block",
+    "top": "testmod:block/red_flower_block"
+  }
+}

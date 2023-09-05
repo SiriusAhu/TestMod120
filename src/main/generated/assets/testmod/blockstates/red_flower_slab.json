@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testmod:block/red_flower_slab"
+    },
+    "type=double": {
+      "model": "testmod:block/red_flower_block"
+    },
+    "type=top": {
+      "model": "testmod:block/red_flower_slab_top"
+    }
+  }
+}

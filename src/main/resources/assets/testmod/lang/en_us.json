@@ -10,6 +10,8 @@
 
   "block.testmod.red_flower_block": "Red Flower Block",
   "block.testmod.music_block": "Music Block",
+  "block.testmod.red_flower_stairs": "Red Flower Stairs",
+  "block.testmod.red_flower_slab": "Red Flower Slab",
 
   "itemgroup.basic_items": "Basic Items"
 }
