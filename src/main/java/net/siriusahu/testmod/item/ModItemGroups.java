@@ -20,12 +20,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_FLOWER_BLOCK);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.MUSIC_BLOCK);
-                        entries.add(ModItems.BLACK_BREAD);
+//                        entries.add(ModItems.BLACK_BREAD);
                         entries.add(ModItems.HEALING_HEART);
                         entries.add(ModBlocks.RED_FLOWER_STAIRS);
                         entries.add(ModBlocks.RED_FLOWER_SLAB);
                         entries.add(ModBlocks.RED_FLOWER_BUTTON);
                         entries.add(ModBlocks.RED_FLOWER_PRESSURE_PLATE);
+                    })).build());
+
+    public static final ItemGroup BASIC_FOODS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(TestMod.MOD_ID, "basic_foods"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.basic_foods"))
+                    .icon(() -> new ItemStack(ModItems.BLACK_BREAD)).entries(((displayContext, entries) -> {
+                        entries.add(ModItems.BLACK_BREAD);
+                        entries.add(ModItems.GREEN_APPLE);
                     })).build());
 
     public static void registerItemGroups() {

@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.siriusahu.testmod.TestMod;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -20,21 +21,23 @@ public class ModItems {
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings()
                     .maxDamage(64) // Durability
-                    )
-    );
+            ));
 
     public static final Item BLACK_BREAD = registerItem("black_bread",
             new Item(new FabricItemSettings()
                     .food(ModFoodComponents.BLACK_BREAD) // Food component
-                    )
-    );
+            ));
 
     public static final Item HEALING_HEART = registerItem("healing_heart",
             new HealingHeart(new FabricItemSettings()
                     .maxCount(1) // Max stack size
                     .maxDamage(32) // Durability
-                    )
-    );
+            ));
+
+    public static final Item GREEN_APPLE = registerItem("green_apple",
+            new Item(new FabricItemSettings()
+                    .food(ModFoodComponents.GREEN_APPLE) // Food component
+            ));
 
 
     // Add items to the "Ingredients" tab

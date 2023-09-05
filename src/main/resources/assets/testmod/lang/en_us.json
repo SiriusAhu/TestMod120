@@ -3,6 +3,7 @@
   "item.testmod.metal_detector": "Metal Detector",
   "item.testmod.black_bread": "Black Bread",
   "item.testmod.healing_heart": "Healing Heart",
+  "item.testmod.green_apple": "Green Apple",
 
   "item.testmod.healing_heart.use": "You get 5 level of healing for 1 second!",
 
@@ -15,5 +16,6 @@
   "block.testmod.red_flower_button": "Red Flower Button",
   "block.testmod.red_flower_pressure_plate": "Red Flower Pressure Plate",
 
-  "itemgroup.basic_items": "Basic Items"
+  "itemgroup.basic_items": "Basic Items",
+  "itemgroup.basic_foods": "Basic Foods"
 }

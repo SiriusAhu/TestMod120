@@ -3,6 +3,7 @@
   "item.testmod.metal_detector": "金属探测器",
   "item.testmod.black_bread": "黑面包",
   "item.testmod.healing_heart": "治疗之心",
+  "item.testmod.green_apple": "绿苹果",
 
   "item.testmod.healing_heart.use": "你获得了1秒的5级生命恢复！",
 
@@ -15,5 +16,6 @@
   "block.testmod.red_flower_button": "红花按钮",
   "block.testmod.red_flower_pressure_plate": "红花压力板",
 
-  "itemgroup.basic_items": "基础物品"
+  "itemgroup.basic_items": "基础物品",
+  "itemgroup.basic_foods": "基础食物"
 }
