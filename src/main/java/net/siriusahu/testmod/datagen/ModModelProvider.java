@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         redFlowerTexturePool.stairs(ModBlocks.RED_FLOWER_STAIRS);
         redFlowerTexturePool.slab(ModBlocks.RED_FLOWER_SLAB);
+        redFlowerTexturePool.button(ModBlocks.RED_FLOWER_BUTTON);
+        redFlowerTexturePool.pressurePlate(ModBlocks.RED_FLOWER_PRESSURE_PLATE);
     }
 
     @Override

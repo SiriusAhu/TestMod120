@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-05T15:54:43.8798452	Test Mod/Tags for minecraft:block
+// 1.20.1	2023-09-05T18:04:20.5169834	Test Mod/Tags for minecraft:block
 b04fdaa5fd24c06adb2667ac6d7e28a74251d344 data\minecraft\tags\blocks\needs_iron_tool.json
 0a6db7460202cbf762fef95cb815c3e62a41f07d data\testmod\tags\blocks\metal_detector_detectable_blocks.json
-e6f8c8b62b45e6dcb4d5f75eb66db0b369aea05a data\minecraft\tags\blocks\mineable\axe.json
+25c6b41e2ce72bafc31fd7c3d984fee0278956e6 data\minecraft\tags\blocks\mineable\axe.json

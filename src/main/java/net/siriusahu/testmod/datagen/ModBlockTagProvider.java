@@ -31,7 +31,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUSIC_BLOCK)
                 .add(ModBlocks.RED_FLOWER_BLOCK)
                 .add(ModBlocks.RED_FLOWER_STAIRS)
-                .add(ModBlocks.RED_FLOWER_SLAB);
+                .add(ModBlocks.RED_FLOWER_SLAB)
+                .add(ModBlocks.RED_FLOWER_BUTTON)
+                .add(ModBlocks.RED_FLOWER_PRESSURE_PLATE);
 
         // 3. More example: NEEDS_DIAMOND_TOOL(only mineable with iron or higher tier tools)
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

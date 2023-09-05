@@ -2,10 +2,7 @@ package net.siriusahu.testmod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -31,6 +28,15 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
     public static final Block RED_FLOWER_SLAB = registerBlock("red_flower_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB))); // Slab doesn't need a default block state
+
+    public static final Block RED_FLOWER_BUTTON = registerBlock("red_flower_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON),
+                    BlockSetType.IRON, // BlockSetType: define the material, for example, the voice of the button, can be opened with hand or not, etc.
+                    10, true)); // wooden: can this button be activated by arrow
+    public static final Block RED_FLOWER_PRESSURE_PLATE = registerBlock("red_flower_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, // everything can activate this pressure plate
+                    FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE),
+                    BlockSetType.IRON));
 
     // ↓↓↓ Don't edit from thie line if not necessary ↓↓↓
     private static Block registerBlock(String name, Block block) {

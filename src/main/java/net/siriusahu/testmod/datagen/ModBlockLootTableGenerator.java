@@ -20,6 +20,9 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_FLOWER_STAIRS);
         addDrop(ModBlocks.RED_FLOWER_SLAB, slabDrops(ModBlocks.RED_FLOWER_SLAB)); // when 2 slabs are combined, they will drop 2 items
 
+        addDrop(ModBlocks.RED_FLOWER_BUTTON);
+        addDrop(ModBlocks.RED_FLOWER_PRESSURE_PLATE);
+
         // 2. Drop ores
         addDrop(ModBlocks.RED_FLOWER_BLOCK, oreDrops(ModBlocks.RED_FLOWER_BLOCK, ModItems.RED_SQUARE));
 

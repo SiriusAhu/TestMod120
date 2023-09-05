@@ -4,6 +4,8 @@
     "testmod:music_block",
     "testmod:red_flower_block",
     "testmod:red_flower_stairs",
-    "testmod:red_flower_slab"
+    "testmod:red_flower_slab",
+    "testmod:red_flower_button",
+    "testmod:red_flower_pressure_plate"
   ]
 }

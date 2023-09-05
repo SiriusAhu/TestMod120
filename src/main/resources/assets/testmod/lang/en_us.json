@@ -12,6 +12,8 @@
   "block.testmod.music_block": "Music Block",
   "block.testmod.red_flower_stairs": "Red Flower Stairs",
   "block.testmod.red_flower_slab": "Red Flower Slab",
+  "block.testmod.red_flower_button": "Red Flower Button",
+  "block.testmod.red_flower_pressure_plate": "Red Flower Pressure Plate",
 
   "itemgroup.basic_items": "Basic Items"
 }

@@ -24,6 +24,8 @@ public class ModItemGroups {
                         entries.add(ModItems.HEALING_HEART);
                         entries.add(ModBlocks.RED_FLOWER_STAIRS);
                         entries.add(ModBlocks.RED_FLOWER_SLAB);
+                        entries.add(ModBlocks.RED_FLOWER_BUTTON);
+                        entries.add(ModBlocks.RED_FLOWER_PRESSURE_PLATE);
                     })).build());
 
     public static void registerItemGroups() {
